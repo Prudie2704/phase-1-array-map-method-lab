@@ -1,5 +1,5 @@
 const tutorials = [
-  'what does the this keyword mean?',
+  'What Does The This Keyword Mean?',
   'What is the Constructor OO pattern?',
   'implementing Blockchain Web API',
   'The Test Driven Development Workflow',
@@ -13,4 +13,8 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials
+}
+map = function(func){
+  let stringArray = this.split("");
+  let newStringArray = stringArray.map(item, index) =>{return func}
 }
